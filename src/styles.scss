@@ -1,0 +1,46 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: white;
+  margin: 16px 24px 16px 0;
+  border: 1px solid white;
+  float: left;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  width: 120px;
+  height: 31px;
+}
+
+.container {
+  display: flex;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  background: white;
+  display: block;
+  min-width: 80%;
+  padding: 10px;
+  h1{
+    text-align: center;
+  }
+}
+
+.cards {
+  margin: auto;
+  padding: 3%;
+  text-align: center;
+
+  .card {
+    margin: 15px 0;
+  }
+}
+
+.footer {
+  text-align: center;
+}
